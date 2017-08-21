@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>的带JS表单验证的网站登录页面模板</title>
+<meta name="keywords" content="网站模板,登录页面模板,登陆页面模板,登录界面模板,登录页面表单验证">
+<link href="css/base.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/base.js"></script>
+
+<!--[if IE]>
+  <script src="js/html5.js"></script>
+<![endif]-->
+<!--[if lte IE 6]>
+	<script src="js/DD_belatedPNG_0.0.8a-min.js" language="javascript"></script>
+	<script>
+	  DD_belatedPNG.fix('div,li,a,h3,span,img,.png_bg,ul,input,dd,dt');
+	</script>
+<![endif]-->
+</head>
+<body class="loginbody">
+<div class="dataEye">
+	<div class="loginbox">
+		<div class="login-content">
+			<div class="loginbox-title">
+				<h3>登录</h3>
+			</div>
+			<form id="signupForm" method="post" action="js/checkRegist.php">
+			<div class="login-error"></div>
+              <div class="user input_border">
+				<label class="img_label"><img src="images/登陆.PNG" ></label>
+                <input type="text" class="input-text-user text-input" name="user" id="user">
+                </div>
+                <div class="psw input_border">
+				<label class="img_label"><img src="images/密码.PNG" ></label>
+				<input type="password" class="input-text-psw text-input" name="password" id="password">
+                </div>
+				<input class="btnArea" id="submit" value="登录" type="submit">
+           <div class="row tips">
+			<a href="forget.jsp" class="link">忘记密码</a>
+		  </div>
+          </form>
+		</div>
+		<div class="go-regist">
+			还没有账号？请
+			<a href="">立即注册</a>
+		</div>
+	</div>
+	
+<footer>
+		<div class="inline-block copyright">
+			<p><a href="#">关于我们</a> | <a href="#">微博</a> | <a href="#">隐私政策</a> | <a href="#">人员招聘</a></p>
+			<p> Copyright © 2013</p>
+		</div>
+</footer>
+</div>
+
+</body>
+</html>

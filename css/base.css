@@ -1,0 +1,112 @@
+*{
+	font-size:18px;
+	font-family:"宋体";
+}
+
+.loginbody{	background:url(../images/homebg.png);	
+text-align:center;	
+margin:150px auto;	
+width:1000px;	
+height:700px;	
+}
+.login-content{	position:relative;	
+margin:auto;	
+width:400px;
+height:325px;
+background:#FFFFFF;	
+}
+.loginbox-title{	
+position:relative;
+margin:20px auto;
+width:400px;
+height:50px;
+border-bottom:#D9D6D6 solid 1px;}
+h3{	text-align:left;
+padding:20px;	
+color:#828080;	
+}
+.login-error{
+	color:#F5090D;
+	font-size:12px;
+	text-align:left;
+	position:relative;
+	margin-top:50px;
+}
+.img_label img {	
+width:35px;	
+height:35px;
+float:left;
+
+}
+
+.input_border{
+	width:300px;
+	height:35px;
+	margin:30px auto;
+	border:#8A8686 1px solid;
+       /* W3C syntax */
+}
+
+.text-input{
+width:265px;
+height:33px;
+float:right;
+border:none;
+margin:0px;
+		
+		}
+.btnArea{
+	position:relative;
+	width:300px;
+	height:45px;
+	margin:15px auto;
+	padding-top:12px;
+	font-size:18px;
+	color:#fff;
+	background:#3576BB;
+	-moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */
+}
+.tips{
+	position:absolute;
+	margin-left:50px;
+	color:#227DC8;
+}
+.tips a{
+	position:relative;
+	color:#4E7DDC;
+}
+.go-regist{
+	position:relative;
+	margin:30px auto;
+	font-size:14px;
+}
+.go-regist a{
+	font-size:14px;
+	color:#4E7DDC;
+}
+footer{
+	clear:both;
+	position:absolute;
+	position:relative;
+	margin-top:150px;
+	border-top:#8A8686 solid 1px;
+	padding:30px;
+	
+}
+.inline-block p,.inline-block a{
+	font-size:14px;
+	color:#8A8686;
+	
+}
+
+
+
+
+
+
+
+
+
+

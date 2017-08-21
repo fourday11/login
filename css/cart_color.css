@@ -1,0 +1,61 @@
+body,div,button{
+	margin:0px;padding:0;
+	font: 15px verdana, arial, sans-serif; 
+}
+header{
+height:100px;
+text-align:right;
+background:url(../images/fruit-bg.png);
+}
+#main {
+	Position:relative;
+	margin: 0 auto;
+	padding:5px;
+	border:2px #330000 solid; 
+	width:700px;  
+	background: url(../images/fruit-midbg.png);
+
+}
+#shopping_list{
+Position:Absolute;
+border:1px solid;
+width:300px;
+height:160px;
+left:200px;
+top:70px;
+
+}
+#div_sale{
+text-align:center;
+
+}
+.fruit{
+display: inline-block;
+text-align:center;
+padding:10px;
+margin:5px;
+
+}
+.img_fruit {
+  border: thick inset #cc0000;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 3px 0px 5px 0px #333333;
+  box-shadow: 3px 0px 5px 0px #333333;
+  padding: 5px;
+  margin: 10px;
+}
+footer{text-align:center;}
+button{
+   background:url(../images/cart.png) no-repeat; 
+    cursor:pointer; 
+	line-height:50px;
+	text-align:center;
+    width: 200px; 
+    height: 50px; 
+    border: none; 
+}
+button:hover{
+   background:url(../images/cart_keydn.png) no-repeat;    
+}
+textarea{font-size:15px;}

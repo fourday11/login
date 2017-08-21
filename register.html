@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/register.js"></script>
+<link style="text/css" href="css/register.css" rel="stylesheet" />
+</head>
+<body>
+<form id="regist">
+    <ul>
+       <li>用户:<input class="user" type="text" name="username" /><span class="error_sig">*</span> </li> 
+       <li><span class="user_error errorTxt"></span></li> 
+       <li>email:<input class="email" type="text" name="email" /><span class="error_sig">*</span> </li> 
+       <li><span class="email_error errorTxt"></span></li>  
+       <li>密码:<input type="password" name="password" class="psw "/><span class="error_sig">*</span></li>
+       <li><span class="psw_error errorTxt"></span></li> 
+       <li class="con_block">确认密码:<input type="password" name="confirm" class="confPsw " /><span class="error_sig">*</span> </li>
+       <li class="conf_error errorTxt"></li>
+       <li><input type="button" class="login" name="Submit" value="立即注册"/></li>
+       <a href="php/login.php">返回登陆页面</a>
+       <li id="text"></li> 
+    </ul> 
+</form>  
+</body>
+</html>
