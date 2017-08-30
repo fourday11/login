@@ -29,6 +29,12 @@ $(document).ready(function(){
 				checkInput=1;
 				$('.user_error').css("display","none");
 			}
+		    if(!emailReg.test(email)){
+			  $('.email_error').html("email格式错误");
+			  checkInput=0;
+			}else{
+				checkInput=1;
+			$('.email_error').css("display","none");
 			if(!pswReg.test(psw)||(psw.length<6 || psw.length>20)){
 			  $('.psw_error').text("密码必须为6-20位数字或大小写字母字符");
 			  checkInput=0;
@@ -43,12 +49,7 @@ $(document).ready(function(){
 				checkInput=1;
 				$('.conf_error').css("display","none");
 			}
-			if(!emailReg.test(email)){
-			  $('.email_error').html("email格式错误");
-			  checkInput=0;
-			}else{
-				checkInput=1;
-			$('.email_error').css("display","none");
+			
 			}
 			
 		});
