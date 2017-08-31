@@ -27,7 +27,7 @@ $(document).ready(function(){
 						 $('.login-error').text('密码为'+data.password);
 					}
 					else{
-						$('.login-error').text('密码或者用户名错误！');
+						$('.login-error').text('email或者用户名错误！');
 					}
 				
 
